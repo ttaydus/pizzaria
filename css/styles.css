@@ -1,0 +1,404 @@
+
+/* Navigation Bar Begin */
+
+#guide{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    opacity: 1;
+
+}
+
+li{
+    float: left;
+    border-right: 3px solid #bbb;
+
+
+}
+
+#menuBar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+
+}
+
+#menuBar:hover{
+    background-color:#651a1a;
+
+}
+
+#guide{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+
+
+/* Navigation Bar End */ 
+
+/* Background Image Begin */
+
+body{
+
+    background: url(/assets/BrickOven2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Background Image End */
+
+/* Title Begin */
+
+
+#name{
+
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Tangerine', cursive;
+    color: #651a1a;
+    font-size: 200px;
+    margin-top: 280px;
+    background-color: white;
+    border: 10px solid black;
+    width: 80%;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .6;
+
+
+}
+
+#tagLine{
+
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Tangerine', cursive;
+    color: #651a1a;
+    font-size: 120px;
+    margin-top: 40px;
+    background-color: white;
+    border: 10px solid black;
+    width: 60%;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .6;
+
+}
+
+/* Title End */
+
+/* Section Title Begin */
+
+.sectionTitle{
+
+    font-family: 'Cinzel', serif;
+    font-size: 100px;
+    color: white;
+
+    margin: auto;
+    border: 10px solid #651a1a;
+    padding: 10px;
+    width: 1200px;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+#today{
+
+    margin-top: 500px;
+
+}
+
+#menu{
+
+    margin-top: 500px;
+}
+
+#subscribe{
+
+    margin-top: 500px;
+}
+
+#visit{
+
+    margin-top: 500px;
+
+}
+
+/* Section Title End */
+
+/* Special Begin*/
+
+#special{
+
+    font-family: 'Cinzel', serif;
+    font-size: 80px;
+    color: black;
+    background-color:#651a1a ;
+    opacity: .8;
+
+    margin: auto;
+    border: 10px solid white;
+    padding-right: 30px;
+    padding-left:30px;
+    padding-bottom:200px;
+    padding-top: 200px;
+    width: 50%;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+
+}
+
+#special:hover{
+
+    background: url(/assets/pizza3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: transparent;
+    opacity: 1;
+
+    
+
+
+}
+
+/* Special End*/
+
+/* Menu Begin*/
+
+.pizza1{
+
+    font-family: 'Tangerine', cursive;;
+    font-size: 50px;
+    color: black;
+    background-color:#651a1a ;
+    opacity: .8;
+
+    margin: auto;
+    border: 10px solid white;
+    padding-right: 30px;
+    padding-left:30px;
+    padding-bottom:50px;
+    padding-top: 50px;
+    width: 50%;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    
+}
+
+.pizza1:hover{
+
+    background: url(/assets/pizza1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:transparent;
+    opacity: 1;
+
+}
+
+
+.pizza2{
+
+    font-family: 'Tangerine', cursive;;
+    font-size: 50px;
+    color: black;
+    background-color:#651a1a ;
+    opacity: .8;
+
+    margin: auto;
+    border: 10px solid white;
+    padding-right: 30px;
+    padding-left:30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 50%;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    
+}
+
+.pizza2:hover{
+
+    background: url(/assets/pizza2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:transparent;
+    opacity: 1;
+
+}
+
+.pizza3{
+
+    font-family: 'Tangerine', cursive;;
+    font-size: 50px;
+    color: black;
+    background-color:#651a1a ;
+    opacity: .8;
+
+    margin: auto;
+    border: 10px solid white;
+    padding-right: 30px;
+    padding-left:30px;
+    padding-bottom:50px;
+    padding-top: 50px;
+    width: 50%;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    
+}
+
+.pizza3:hover{
+
+    background: url(/assets/pizza3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:transparent;
+    opacity: 1;
+
+}
+
+.pizza4{
+
+    font-family: 'Tangerine', cursive;;
+    font-size: 50px;
+    color: black;
+    background-color:#651a1a ;
+    opacity: .8;
+
+    margin: auto;
+    border: 10px solid white;
+    padding-right: 30px;
+    padding-left:30px;
+    padding-bottom:50px;
+    padding-top: 50px;
+    width: 50%;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    
+}
+
+.pizza4:hover{
+
+    background: url(/assets/pizza4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:transparent;
+    opacity: 1;
+
+}
+
+.pizza5{
+
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    color: black;
+    background-color:#651a1a ;
+    opacity: .8;
+
+    margin: auto;
+    border: 10px solid white;
+    padding-right: 30px;
+    padding-left:30px;
+    padding-bottom:50px;
+    padding-top: 50px;
+    width: 50%;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    
+}
+
+.pizza5:hover{
+
+    background: url(/assets/pizza5.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:transparent;
+    opacity: 1;
+
+}
+
+.pizzaName{
+    
+    font-size: 80px;
+    font-family: 'Cinzel', serif; 
+}
+
+.description{
+
+    font-size: 80px;
+    font-family: 'Tangerine', cursive;
+}
+
+.price{
+
+    font-size: 60px; 
+    font-family: 'Tangerine', cursive;
+}
+
+/* Menu End*/
+
+/* Subscribe Begin */
+
+#deal{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 120px;
+    font-family: 'Cinzel', serif; 
+    background-color: #651a1a;
+    opacity: .8;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input[type='First Name'], [type='Last Name'], [type='email']{
+
+    background-color: #00b3b3;
+    border: 2px solid white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+
+}
+
+input[type='First Name']:hover{
+
+    background-color: black;
+
+
+}
+
+
+/* Subscribe End */
